@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1772965351129,
+  "lastUpdate": 1772980766435,
   "repoUrl": "https://github.com/Adi2K/kbash",
   "entries": {
     "Benchmark": [
@@ -16,13 +16,13 @@
             "username": "Adi2K"
           },
           "distinct": true,
-          "id": "79686eecfd50226454498ecc2f6285512fcea790",
-          "message": "fix: use SSH deploy key for benchmark dashboard push\n\nReplace HTTPS PAT with SSH deploy key for pushing to the public\nkbash-benchmarks repo. Deploy key is scoped to that single repo\nand set up automatically via gh CLI.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
-          "timestamp": "2026-03-08T15:48:33+05:30",
-          "tree_id": "d3c863727487c1b29d1c572d97480bc5676cabc5",
-          "url": "https://github.com/Adi2K/kbash/commit/79686eecfd50226454498ecc2f6285512fcea790"
+          "id": "5421d4db41b4e514ded4a92f5ad9943bef597db9",
+          "message": "Add GitHub Discussion templates for Decisions, Research, and RFCs\n\nStructured YAML form templates that enforce quality and consistency:\n- Decisions: ADR-style with \"Conditions for Revisiting\" anti-cycle field\n- Research: Deep dives with mandatory code-sync verification checkbox\n- RFCs: Proposals with tenet alignment and pre-submission checks\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+          "timestamp": "2026-03-08T20:04:29+05:30",
+          "tree_id": "20ce597931a6189f25abc14beb1390e0f51e960f",
+          "url": "https://github.com/Adi2K/kbash/commit/5421d4db41b4e514ded4a92f5ad9943bef597db9"
         },
-        "date": 1772965351129,
+        "date": 1772980766435,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
@@ -37,7 +37,7 @@
           },
           {
             "name": "agent_multi_step_analysis",
-            "value": 5087760,
+            "value": 5045840,
             "unit": "bytes"
           },
           {
@@ -47,132 +47,132 @@
           },
           {
             "name": "agent_grep_500_files",
-            "value": 18811592,
+            "value": 18812136,
             "unit": "bytes"
           },
           {
             "name": "cmdout_seq_100k_devnull",
-            "value": 11464928,
+            "value": 11458088,
             "unit": "bytes"
           },
           {
             "name": "cmdout_yes_head_10k",
-            "value": 1080064,
+            "value": 1073032,
             "unit": "bytes"
           },
           {
             "name": "cmdout_awk_generate_10k",
-            "value": 12378240,
+            "value": 12942104,
             "unit": "bytes"
           },
           {
             "name": "cmdout_printf_repeat_10k",
-            "value": 9020440,
+            "value": 9013600,
             "unit": "bytes"
           },
           {
             "name": "cmdout_seq_rev_10k",
-            "value": 3096000,
+            "value": 3089160,
             "unit": "bytes"
           },
           {
             "name": "edge_glob_1000_files",
-            "value": 2307296,
+            "value": 2252408,
             "unit": "bytes"
           },
           {
             "name": "edge_source_500_commands",
-            "value": 10102496,
+            "value": 10023680,
             "unit": "bytes"
           },
           {
             "name": "edge_nested_arithmetic_20",
-            "value": 275104,
+            "value": 268264,
             "unit": "bytes"
           },
           {
             "name": "edge_read_stdin_1000_lines",
-            "value": 11133360,
+            "value": 11318808,
             "unit": "bytes"
           },
           {
             "name": "edge_herestring_large_var",
-            "value": 1536840,
+            "value": 1529776,
             "unit": "bytes"
           },
           {
             "name": "param_global_replacement_5000",
-            "value": 2709768,
+            "value": 2702832,
             "unit": "bytes"
           },
           {
             "name": "string_concat_loop_2000",
-            "value": 19278352,
+            "value": 19271288,
             "unit": "bytes"
           },
           {
             "name": "brace_cartesian_with_affixes",
-            "value": 2286632,
+            "value": 2292056,
             "unit": "bytes"
           },
           {
             "name": "brace_2level_cartesian_676",
-            "value": 1598416,
+            "value": 1591576,
             "unit": "bytes"
           },
           {
             "name": "brace_3level_cartesian_6760",
-            "value": 16536656,
+            "value": 16529816,
             "unit": "bytes"
           },
           {
             "name": "brace_numeric_10000",
-            "value": 5135912,
+            "value": 5129072,
             "unit": "bytes"
           },
           {
             "name": "fileio_grep_1mb_few_matches",
-            "value": 6574336,
+            "value": 6567376,
             "unit": "bytes"
           },
           {
             "name": "fileio_head5_1mb",
-            "value": 230288,
+            "value": 223344,
             "unit": "bytes"
           },
           {
             "name": "fileio_wc_1mb",
-            "value": 1375304,
+            "value": 1368408,
             "unit": "bytes"
           },
           {
             "name": "var_substring_extraction",
-            "value": 1790536,
+            "value": 1783632,
             "unit": "bytes"
           },
           {
             "name": "var_pattern_replacement_5000",
-            "value": 2709640,
+            "value": 2702736,
             "unit": "bytes"
           },
           {
             "name": "var_array_slice_5000",
-            "value": 8044688,
+            "value": 8037784,
             "unit": "bytes"
           },
           {
             "name": "var_array_indexed_10000",
-            "value": 42629416,
+            "value": 42622488,
             "unit": "bytes"
           },
           {
             "name": "var_assoc_array_5000",
-            "value": 65425904,
+            "value": 65419000,
             "unit": "bytes"
           },
           {
             "name": "var_case_transform_5000",
-            "value": 1138536,
+            "value": 1131632,
             "unit": "bytes"
           }
         ]
