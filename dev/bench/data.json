@@ -1,1 +1,182 @@
-{}
+{
+  "lastUpdate": 1772965351129,
+  "repoUrl": "https://github.com/Adi2K/kbash",
+  "entries": {
+    "Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "email": "adityaskadam1@gmail.com",
+            "name": "Adi2K",
+            "username": "Adi2K"
+          },
+          "committer": {
+            "email": "adityaskadam1@gmail.com",
+            "name": "Adi2K",
+            "username": "Adi2K"
+          },
+          "distinct": true,
+          "id": "79686eecfd50226454498ecc2f6285512fcea790",
+          "message": "fix: use SSH deploy key for benchmark dashboard push\n\nReplace HTTPS PAT with SSH deploy key for pushing to the public\nkbash-benchmarks repo. Deploy key is scoped to that single repo\nand set up automatically via gh CLI.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+          "timestamp": "2026-03-08T15:48:33+05:30",
+          "tree_id": "d3c863727487c1b29d1c572d97480bc5676cabc5",
+          "url": "https://github.com/Adi2K/kbash/commit/79686eecfd50226454498ecc2f6285512fcea790"
+        },
+        "date": 1772965351129,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "agent_csv_pipeline",
+            "value": 34589768,
+            "unit": "bytes"
+          },
+          {
+            "name": "agent_grep_100_files",
+            "value": 3730520,
+            "unit": "bytes"
+          },
+          {
+            "name": "agent_multi_step_analysis",
+            "value": 5087760,
+            "unit": "bytes"
+          },
+          {
+            "name": "agent_log_analysis",
+            "value": 7269808,
+            "unit": "bytes"
+          },
+          {
+            "name": "agent_grep_500_files",
+            "value": 18811592,
+            "unit": "bytes"
+          },
+          {
+            "name": "cmdout_seq_100k_devnull",
+            "value": 11464928,
+            "unit": "bytes"
+          },
+          {
+            "name": "cmdout_yes_head_10k",
+            "value": 1080064,
+            "unit": "bytes"
+          },
+          {
+            "name": "cmdout_awk_generate_10k",
+            "value": 12378240,
+            "unit": "bytes"
+          },
+          {
+            "name": "cmdout_printf_repeat_10k",
+            "value": 9020440,
+            "unit": "bytes"
+          },
+          {
+            "name": "cmdout_seq_rev_10k",
+            "value": 3096000,
+            "unit": "bytes"
+          },
+          {
+            "name": "edge_glob_1000_files",
+            "value": 2307296,
+            "unit": "bytes"
+          },
+          {
+            "name": "edge_source_500_commands",
+            "value": 10102496,
+            "unit": "bytes"
+          },
+          {
+            "name": "edge_nested_arithmetic_20",
+            "value": 275104,
+            "unit": "bytes"
+          },
+          {
+            "name": "edge_read_stdin_1000_lines",
+            "value": 11133360,
+            "unit": "bytes"
+          },
+          {
+            "name": "edge_herestring_large_var",
+            "value": 1536840,
+            "unit": "bytes"
+          },
+          {
+            "name": "param_global_replacement_5000",
+            "value": 2709768,
+            "unit": "bytes"
+          },
+          {
+            "name": "string_concat_loop_2000",
+            "value": 19278352,
+            "unit": "bytes"
+          },
+          {
+            "name": "brace_cartesian_with_affixes",
+            "value": 2286632,
+            "unit": "bytes"
+          },
+          {
+            "name": "brace_2level_cartesian_676",
+            "value": 1598416,
+            "unit": "bytes"
+          },
+          {
+            "name": "brace_3level_cartesian_6760",
+            "value": 16536656,
+            "unit": "bytes"
+          },
+          {
+            "name": "brace_numeric_10000",
+            "value": 5135912,
+            "unit": "bytes"
+          },
+          {
+            "name": "fileio_grep_1mb_few_matches",
+            "value": 6574336,
+            "unit": "bytes"
+          },
+          {
+            "name": "fileio_head5_1mb",
+            "value": 230288,
+            "unit": "bytes"
+          },
+          {
+            "name": "fileio_wc_1mb",
+            "value": 1375304,
+            "unit": "bytes"
+          },
+          {
+            "name": "var_substring_extraction",
+            "value": 1790536,
+            "unit": "bytes"
+          },
+          {
+            "name": "var_pattern_replacement_5000",
+            "value": 2709640,
+            "unit": "bytes"
+          },
+          {
+            "name": "var_array_slice_5000",
+            "value": 8044688,
+            "unit": "bytes"
+          },
+          {
+            "name": "var_array_indexed_10000",
+            "value": 42629416,
+            "unit": "bytes"
+          },
+          {
+            "name": "var_assoc_array_5000",
+            "value": 65425904,
+            "unit": "bytes"
+          },
+          {
+            "name": "var_case_transform_5000",
+            "value": 1138536,
+            "unit": "bytes"
+          }
+        ]
+      }
+    ]
+  }
+}
