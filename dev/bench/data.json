@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1772980766435,
+  "lastUpdate": 1774687203420,
   "repoUrl": "https://github.com/Adi2K/kbash",
   "entries": {
     "Benchmark": [
@@ -16,163 +16,163 @@
             "username": "Adi2K"
           },
           "distinct": true,
-          "id": "5421d4db41b4e514ded4a92f5ad9943bef597db9",
-          "message": "Add GitHub Discussion templates for Decisions, Research, and RFCs\n\nStructured YAML form templates that enforce quality and consistency:\n- Decisions: ADR-style with \"Conditions for Revisiting\" anti-cycle field\n- Research: Deep dives with mandatory code-sync verification checkbox\n- RFCs: Proposals with tenet alignment and pre-submission checks\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
-          "timestamp": "2026-03-08T20:04:29+05:30",
-          "tree_id": "20ce597931a6189f25abc14beb1390e0f51e960f",
-          "url": "https://github.com/Adi2K/kbash/commit/5421d4db41b4e514ded4a92f5ad9943bef597db9"
+          "id": "7785f0c1fa3ddf56620d9247fbfc40133bd4c056",
+          "message": "ci: scope memory benchmark to :kbash-core only\n\nThe unscoped `./gradlew jvmTest --tests \"com.kbash.memory.*\"` now\nfails on :kbash-filekit because that module has test classes but no\ncom.kbash.memory.* tests. Scope to :kbash-core:jvmTest where the\nmemory tests actually live.\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-03-28T14:05:42+05:30",
+          "tree_id": "3a9c193347b4c98eca3f40b039f79a0b1502e12a",
+          "url": "https://github.com/Adi2K/kbash/commit/7785f0c1fa3ddf56620d9247fbfc40133bd4c056"
         },
-        "date": 1772980766435,
+        "date": 1774687203419,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
             "name": "agent_csv_pipeline",
-            "value": 34589768,
+            "value": 34589832,
             "unit": "bytes"
           },
           {
             "name": "agent_grep_100_files",
-            "value": 3730520,
+            "value": 3702040,
             "unit": "bytes"
           },
           {
             "name": "agent_multi_step_analysis",
-            "value": 5045840,
+            "value": 5045904,
             "unit": "bytes"
           },
           {
             "name": "agent_log_analysis",
-            "value": 7269808,
+            "value": 7269872,
             "unit": "bytes"
           },
           {
             "name": "agent_grep_500_files",
-            "value": 18812136,
+            "value": 18811656,
             "unit": "bytes"
           },
           {
             "name": "cmdout_seq_100k_devnull",
-            "value": 11458088,
+            "value": 11483232,
             "unit": "bytes"
           },
           {
             "name": "cmdout_yes_head_10k",
-            "value": 1073032,
+            "value": 1098704,
             "unit": "bytes"
           },
           {
             "name": "cmdout_awk_generate_10k",
-            "value": 12942104,
+            "value": 12984504,
             "unit": "bytes"
           },
           {
             "name": "cmdout_printf_repeat_10k",
-            "value": 9013600,
+            "value": 9253664,
             "unit": "bytes"
           },
           {
             "name": "cmdout_seq_rev_10k",
-            "value": 3089160,
+            "value": 3089224,
             "unit": "bytes"
           },
           {
             "name": "edge_glob_1000_files",
-            "value": 2252408,
+            "value": 2252472,
             "unit": "bytes"
           },
           {
             "name": "edge_source_500_commands",
-            "value": 10023680,
+            "value": 10024072,
             "unit": "bytes"
           },
           {
             "name": "edge_nested_arithmetic_20",
-            "value": 268264,
+            "value": 268616,
             "unit": "bytes"
           },
           {
             "name": "edge_read_stdin_1000_lines",
-            "value": 11318808,
+            "value": 11128432,
             "unit": "bytes"
           },
           {
             "name": "edge_herestring_large_var",
-            "value": 1529776,
+            "value": 1530000,
             "unit": "bytes"
           },
           {
             "name": "param_global_replacement_5000",
-            "value": 2702832,
+            "value": 2702928,
             "unit": "bytes"
           },
           {
             "name": "string_concat_loop_2000",
-            "value": 19271288,
+            "value": 19271512,
             "unit": "bytes"
           },
           {
             "name": "brace_cartesian_with_affixes",
-            "value": 2292056,
+            "value": 2292216,
             "unit": "bytes"
           },
           {
             "name": "brace_2level_cartesian_676",
-            "value": 1591576,
+            "value": 1629592,
             "unit": "bytes"
           },
           {
             "name": "brace_3level_cartesian_6760",
-            "value": 16529816,
+            "value": 16530024,
             "unit": "bytes"
           },
           {
             "name": "brace_numeric_10000",
-            "value": 5129072,
+            "value": 5129312,
             "unit": "bytes"
           },
           {
             "name": "fileio_grep_1mb_few_matches",
-            "value": 6567376,
+            "value": 6567536,
             "unit": "bytes"
           },
           {
             "name": "fileio_head5_1mb",
-            "value": 223344,
+            "value": 223504,
             "unit": "bytes"
           },
           {
             "name": "fileio_wc_1mb",
-            "value": 1368408,
+            "value": 1368568,
             "unit": "bytes"
           },
           {
             "name": "var_substring_extraction",
-            "value": 1783632,
+            "value": 1783824,
             "unit": "bytes"
           },
           {
             "name": "var_pattern_replacement_5000",
-            "value": 2702736,
+            "value": 2702928,
             "unit": "bytes"
           },
           {
             "name": "var_array_slice_5000",
-            "value": 8037784,
+            "value": 8037976,
             "unit": "bytes"
           },
           {
             "name": "var_array_indexed_10000",
-            "value": 42622488,
+            "value": 42622704,
             "unit": "bytes"
           },
           {
             "name": "var_assoc_array_5000",
-            "value": 65419000,
+            "value": 65419192,
             "unit": "bytes"
           },
           {
             "name": "var_case_transform_5000",
-            "value": 1131632,
+            "value": 1131824,
             "unit": "bytes"
           }
         ]
