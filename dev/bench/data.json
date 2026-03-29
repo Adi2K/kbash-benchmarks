@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1774784708125,
+  "lastUpdate": 1774823064085,
   "repoUrl": "https://github.com/Adi2K/kbash",
   "entries": {
     "Benchmark": [
@@ -16,18 +16,18 @@
             "username": "Adi2K"
           },
           "distinct": true,
-          "id": "a6fc306e6ce550123518b770aa0da627ea7e1d47",
-          "message": "fix(sqlite): drive all 782 SqliteFs tests green — fix 16 remaining failures\n\nFixes:\n- createPartition: lastInsertIno bug (dentry rowid vs inode ino)\n- writeFile: follow symlinks, update parent mtime on new file\n- readFile: trailing slash on file throws ENOTDIR\n- stat: empty path throws ENOENT\n- mkdir: root path throws EEXIST, recursive follows symlinks\n- exists: propagate ENAMETOOLONG\n- persistence test: set PRAGMA user_version after Schema.create\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
-          "timestamp": "2026-03-29T05:35:54+05:30",
-          "tree_id": "31fbf7ef9915c2b6353464016b883ccb39e00e98",
-          "url": "https://github.com/Adi2K/kbash/commit/a6fc306e6ce550123518b770aa0da627ea7e1d47"
+          "id": "13bb775976675844ee819b6b4a44332c200f49e5",
+          "message": "chore(sqlite): remove stale Phase 1/Phase 2 comments from production code\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-03-30T03:44:58+05:30",
+          "tree_id": "141adf779f0b217c5c3309ac520770d8acb51e7a",
+          "url": "https://github.com/Adi2K/kbash/commit/13bb775976675844ee819b6b4a44332c200f49e5"
         },
-        "date": 1774784708125,
+        "date": 1774823064082,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
             "name": "agent_csv_pipeline",
-            "value": 34590288,
+            "value": 34590720,
             "unit": "bytes"
           },
           {
@@ -67,7 +67,7 @@
           },
           {
             "name": "cmdout_printf_repeat_10k",
-            "value": 8978560,
+            "value": 9253984,
             "unit": "bytes"
           },
           {
@@ -87,17 +87,17 @@
           },
           {
             "name": "edge_nested_arithmetic_20",
-            "value": 268648,
+            "value": 268936,
             "unit": "bytes"
           },
           {
             "name": "edge_read_stdin_1000_lines",
-            "value": 11127712,
+            "value": 11376792,
             "unit": "bytes"
           },
           {
             "name": "edge_herestring_large_var",
-            "value": 1530192,
+            "value": 1530160,
             "unit": "bytes"
           },
           {
@@ -117,17 +117,17 @@
           },
           {
             "name": "brace_2level_cartesian_676",
-            "value": 1591960,
+            "value": 1629816,
             "unit": "bytes"
           },
           {
             "name": "brace_3level_cartesian_6760",
-            "value": 16530200,
+            "value": 16586440,
             "unit": "bytes"
           },
           {
             "name": "brace_numeric_10000",
-            "value": 5129456,
+            "value": 5129536,
             "unit": "bytes"
           },
           {
@@ -162,17 +162,17 @@
           },
           {
             "name": "var_array_indexed_10000",
-            "value": 42622896,
+            "value": 42622920,
             "unit": "bytes"
           },
           {
             "name": "var_assoc_array_5000",
-            "value": 65419384,
+            "value": 65419264,
             "unit": "bytes"
           },
           {
             "name": "var_case_transform_5000",
-            "value": 1132016,
+            "value": 1131936,
             "unit": "bytes"
           }
         ]
