@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1774688236423,
+  "lastUpdate": 1774784708125,
   "repoUrl": "https://github.com/Adi2K/kbash",
   "entries": {
     "Benchmark": [
@@ -16,163 +16,163 @@
             "username": "Adi2K"
           },
           "distinct": true,
-          "id": "2d3ab644482eee23743553ade22103c7bdeab01b",
-          "message": "refactor(filekit): extract DevResult sealed class for /dev path handling\n\nReplace scattered isDevPath()/devFiles.containsKey() checks across 15+\nmethods with a centralized classifyDevPath() helper returning a sealed\nDevResult type (DevDir, DevFile, DevUnknown, NotDev). Pure refactor with\nno behavior changes.\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
-          "timestamp": "2026-03-28T14:21:35+05:30",
-          "tree_id": "bd12cfc8ecc73cbefe27630e1cad5c96f116b2be",
-          "url": "https://github.com/Adi2K/kbash/commit/2d3ab644482eee23743553ade22103c7bdeab01b"
+          "id": "a6fc306e6ce550123518b770aa0da627ea7e1d47",
+          "message": "fix(sqlite): drive all 782 SqliteFs tests green — fix 16 remaining failures\n\nFixes:\n- createPartition: lastInsertIno bug (dentry rowid vs inode ino)\n- writeFile: follow symlinks, update parent mtime on new file\n- readFile: trailing slash on file throws ENOTDIR\n- stat: empty path throws ENOENT\n- mkdir: root path throws EEXIST, recursive follows symlinks\n- exists: propagate ENAMETOOLONG\n- persistence test: set PRAGMA user_version after Schema.create\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-03-29T05:35:54+05:30",
+          "tree_id": "31fbf7ef9915c2b6353464016b883ccb39e00e98",
+          "url": "https://github.com/Adi2K/kbash/commit/a6fc306e6ce550123518b770aa0da627ea7e1d47"
         },
-        "date": 1774688236422,
+        "date": 1774784708125,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
             "name": "agent_csv_pipeline",
-            "value": 34589832,
+            "value": 34590288,
             "unit": "bytes"
           },
           {
             "name": "agent_grep_100_files",
-            "value": 3730584,
+            "value": 3702432,
             "unit": "bytes"
           },
           {
             "name": "agent_multi_step_analysis",
-            "value": 5045904,
+            "value": 5046224,
             "unit": "bytes"
           },
           {
             "name": "agent_log_analysis",
-            "value": 7269872,
+            "value": 7270192,
             "unit": "bytes"
           },
           {
             "name": "agent_grep_500_files",
-            "value": 18811656,
+            "value": 18812048,
             "unit": "bytes"
           },
           {
             "name": "cmdout_seq_100k_devnull",
-            "value": 11458152,
+            "value": 11458472,
             "unit": "bytes"
           },
           {
             "name": "cmdout_yes_head_10k",
-            "value": 1073096,
+            "value": 1073416,
             "unit": "bytes"
           },
           {
             "name": "cmdout_awk_generate_10k",
-            "value": 12576296,
+            "value": 12984824,
             "unit": "bytes"
           },
           {
             "name": "cmdout_printf_repeat_10k",
-            "value": 9013664,
+            "value": 8978560,
             "unit": "bytes"
           },
           {
             "name": "cmdout_seq_rev_10k",
-            "value": 3089224,
+            "value": 3089544,
             "unit": "bytes"
           },
           {
             "name": "edge_glob_1000_files",
-            "value": 2252472,
+            "value": 2252864,
             "unit": "bytes"
           },
           {
             "name": "edge_source_500_commands",
-            "value": 10023744,
+            "value": 10024064,
             "unit": "bytes"
           },
           {
             "name": "edge_nested_arithmetic_20",
-            "value": 268616,
+            "value": 268648,
             "unit": "bytes"
           },
           {
             "name": "edge_read_stdin_1000_lines",
-            "value": 11200808,
+            "value": 11127712,
             "unit": "bytes"
           },
           {
             "name": "edge_herestring_large_var",
-            "value": 1530000,
+            "value": 1530192,
             "unit": "bytes"
           },
           {
             "name": "param_global_replacement_5000",
-            "value": 2703024,
+            "value": 2703120,
             "unit": "bytes"
           },
           {
             "name": "string_concat_loop_2000",
-            "value": 19270696,
+            "value": 19271672,
             "unit": "bytes"
           },
           {
             "name": "brace_cartesian_with_affixes",
-            "value": 2292024,
+            "value": 2292440,
             "unit": "bytes"
           },
           {
             "name": "brace_2level_cartesian_676",
-            "value": 1629592,
+            "value": 1591960,
             "unit": "bytes"
           },
           {
             "name": "brace_3level_cartesian_6760",
-            "value": 16529880,
+            "value": 16530200,
             "unit": "bytes"
           },
           {
             "name": "brace_numeric_10000",
-            "value": 5129136,
+            "value": 5129456,
             "unit": "bytes"
           },
           {
             "name": "fileio_grep_1mb_few_matches",
-            "value": 6567440,
+            "value": 6567760,
             "unit": "bytes"
           },
           {
             "name": "fileio_head5_1mb",
-            "value": 223408,
+            "value": 223728,
             "unit": "bytes"
           },
           {
             "name": "fileio_wc_1mb",
-            "value": 1368472,
+            "value": 1368792,
             "unit": "bytes"
           },
           {
             "name": "var_substring_extraction",
-            "value": 1783696,
+            "value": 1784016,
             "unit": "bytes"
           },
           {
             "name": "var_pattern_replacement_5000",
-            "value": 2702800,
+            "value": 2703120,
             "unit": "bytes"
           },
           {
             "name": "var_array_slice_5000",
-            "value": 8037848,
+            "value": 8038168,
             "unit": "bytes"
           },
           {
             "name": "var_array_indexed_10000",
-            "value": 42622600,
+            "value": 42622896,
             "unit": "bytes"
           },
           {
             "name": "var_assoc_array_5000",
-            "value": 65419064,
+            "value": 65419384,
             "unit": "bytes"
           },
           {
             "name": "var_case_transform_5000",
-            "value": 1131696,
+            "value": 1132016,
             "unit": "bytes"
           }
         ]
