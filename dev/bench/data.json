@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1774823064085,
+  "lastUpdate": 1775426934821,
   "repoUrl": "https://github.com/Adi2K/kbash",
   "entries": {
     "Benchmark": [
@@ -16,18 +16,18 @@
             "username": "Adi2K"
           },
           "distinct": true,
-          "id": "13bb775976675844ee819b6b4a44332c200f49e5",
-          "message": "chore(sqlite): remove stale Phase 1/Phase 2 comments from production code\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
-          "timestamp": "2026-03-30T03:44:58+05:30",
-          "tree_id": "141adf779f0b217c5c3309ac520770d8acb51e7a",
-          "url": "https://github.com/Adi2K/kbash/commit/13bb775976675844ee819b6b4a44332c200f49e5"
+          "id": "362331ea8fcba05aa31fdfba4c83f40373199e6c",
+          "message": "docs: add comprehensive project README\n\nCover project overview, quick start, full API documentation, platform\nsupport matrix, security model, architecture, design philosophy, and\ntesting strategy. All technical claims verified against current codebase.\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-04-06T03:34:12+05:30",
+          "tree_id": "f9a77fa548fac2548b1e9eb94f58f70ab53e2551",
+          "url": "https://github.com/Adi2K/kbash/commit/362331ea8fcba05aa31fdfba4c83f40373199e6c"
         },
-        "date": 1774823064082,
+        "date": 1775426934820,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
             "name": "agent_csv_pipeline",
-            "value": 34590720,
+            "value": 34430088,
             "unit": "bytes"
           },
           {
@@ -67,7 +67,7 @@
           },
           {
             "name": "cmdout_printf_repeat_10k",
-            "value": 9253984,
+            "value": 9013984,
             "unit": "bytes"
           },
           {
@@ -87,92 +87,92 @@
           },
           {
             "name": "edge_nested_arithmetic_20",
-            "value": 268936,
+            "value": 268744,
             "unit": "bytes"
           },
           {
             "name": "edge_read_stdin_1000_lines",
-            "value": 11376792,
+            "value": 11128752,
             "unit": "bytes"
           },
           {
             "name": "edge_herestring_large_var",
-            "value": 1530160,
+            "value": 1530288,
             "unit": "bytes"
           },
           {
             "name": "param_global_replacement_5000",
-            "value": 2703120,
+            "value": 2703248,
             "unit": "bytes"
           },
           {
             "name": "string_concat_loop_2000",
-            "value": 19271672,
+            "value": 19271800,
             "unit": "bytes"
           },
           {
             "name": "brace_cartesian_with_affixes",
-            "value": 2292440,
+            "value": 2292536,
             "unit": "bytes"
           },
           {
             "name": "brace_2level_cartesian_676",
-            "value": 1629816,
+            "value": 1629912,
             "unit": "bytes"
           },
           {
             "name": "brace_3level_cartesian_6760",
-            "value": 16586440,
+            "value": 16530296,
             "unit": "bytes"
           },
           {
             "name": "brace_numeric_10000",
-            "value": 5129536,
+            "value": 5129552,
             "unit": "bytes"
           },
           {
             "name": "fileio_grep_1mb_few_matches",
-            "value": 6567760,
+            "value": 6567856,
             "unit": "bytes"
           },
           {
             "name": "fileio_head5_1mb",
-            "value": 223728,
+            "value": 223824,
             "unit": "bytes"
           },
           {
             "name": "fileio_wc_1mb",
-            "value": 1368792,
+            "value": 1368888,
             "unit": "bytes"
           },
           {
             "name": "var_substring_extraction",
-            "value": 1784016,
+            "value": 1784144,
             "unit": "bytes"
           },
           {
             "name": "var_pattern_replacement_5000",
-            "value": 2703120,
+            "value": 2703248,
             "unit": "bytes"
           },
           {
             "name": "var_array_slice_5000",
-            "value": 8038168,
+            "value": 8038296,
             "unit": "bytes"
           },
           {
             "name": "var_array_indexed_10000",
-            "value": 42622920,
+            "value": 42623048,
             "unit": "bytes"
           },
           {
             "name": "var_assoc_array_5000",
-            "value": 65419264,
+            "value": 65419512,
             "unit": "bytes"
           },
           {
             "name": "var_case_transform_5000",
-            "value": 1131936,
+            "value": 1132144,
             "unit": "bytes"
           }
         ]
